@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-text{
+    text-align: center;
+    margin-top: 30px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.scores{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(255, 246, 234);
+    margin-top: 10px;
+}
+
+.scores .score{
+    display: flex;
+    font-size: 30px;
+    padding: 30px 10px 30px 10px;
+    width: 40%;
+    align-items: center;
+}
+
+.score .inputScore{
+    border: none;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px 10px 20px 10px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(255, 246, 234);
+}
+
+#userScore{
+    justify-content: right;
+}
+
+#computerScore{
+    justify-content: left;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 100px;
+}
+
+.image{
+    width: 150px;
+}
+
+.image-game{
+    text-align: center;
+    cursor: pointer;
+}
+
+.reset{
+    text-align: center;
+}
+
+#resetBtn{
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    background-color: bisque;
+    border-radius: 8px;
+    border: 0.5px solid grey;
+    cursor: pointer;
+}
+
+#overlay{
+    background-color: rgba(0,0,0,0.5);
+    width: 50%;
+    height: 50vh;
+    top: 0;
+    display: none;
+    position: fixed;
+    top: 200px;
+    left: 300px;
+    border-radius: 8px;
+}
+
+#overlay .bg{
+    background-color: rgba(255,255,255,0.9);
+    width: 47%;
+    height: 45vh;
+    display: none;
+    position: fixed;
+    top: 215px;
+    left: 317px;
+    border-radius: 8px;
+}
+
+.bg{
+    text-align: center;
+}
+
+.bg-header-text{
+    font-size: 40px;
+    margin-top: 85px;
+}
+
+.bg-text{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#resetBtn:hover{
+    background-color: rgb(255, 246, 234);
+}
